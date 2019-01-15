@@ -13,11 +13,16 @@
      }
   };
   
-  console.log(obj.prop.getFullname());
+  console.log(obj.prop.getFullname());// "Aurelio De Rosa"
 
   var test = obj.prop.getFullname;
   
-  console.log(test());
+  console.log(test());// John Doe
+
+
+
+""
+
   ```
 
 2. What will you see in the console for the following example?
@@ -29,7 +34,7 @@
       function a() {} 
   } 
   b(); 
-  console.log(a);    
+  console.log(a);//10, the function is within global scope.     
   ```
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
